@@ -9,7 +9,7 @@
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
 <script>
-  $.getJSON('http://api.meetup.com/seattlestupidhackathon/events?callback=?', function(data) {
+  $.getJSON('https://api.meetup.com/seattlestupidhackathon/events?callback=?', function(data) {
     event_title = data['data'][0]['name']
     date = parseInt(data['data'][0]['local_date'].split("-")[1]) + "/" + data['data'][0]['local_date'].split("-")[2];
     hours = data['data'][0]['local_time'].split(":")[0]
