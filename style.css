@@ -2,20 +2,20 @@ body {
   margin:0;
   padding:0;
   font: 16px arial, sans-serif;
-  -webkit-background-size: 50% auto;
-     -moz-background-size: 50% auto;
-       -o-background-size: 50% auto;
-          background-size: 50% auto;
+  -webkit-background-size: 35% auto;
+     -moz-background-size: 35% auto;
+       -o-background-size: 35% auto;
+          background-size: 35% auto;
   background-image: url(./billg1_GO.png);
   background-repeat: repeat-y;
   background-attachment: fixed;
-  line-height: 150%;
+  line-height: 100%;
   background-position: left center;
 }
 
 #main {
-  width: 50%;
-  left: 50%;
+  width: 55%;
+  left: 40%;
   position:absolute;
 }
 
